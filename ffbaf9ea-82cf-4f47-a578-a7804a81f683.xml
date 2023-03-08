@@ -1,0 +1,20 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description>An scm stored job</description>
+    <executionEnabled>true</executionEnabled>
+    <id>ffbaf9ea-82cf-4f47-a578-a7804a81f683</id>
+    <loglevel>INFO</loglevel>
+    <name>scmjob</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo "scm all the way"</exec>
+      </command>
+    </sequence>
+    <uuid>ffbaf9ea-82cf-4f47-a578-a7804a81f683</uuid>
+  </job>
+</joblist>
