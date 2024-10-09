@@ -17,7 +17,7 @@
     </schedule>
     <sequence keepgoing='false' strategy='node-first'>
       <command>
-        <exec>echo "scm all the way"</exec>
+        <exec>echo "scm all the way - update my job"</exec>
       </command>
     </sequence>
     <uuid>ffbaf9ea-82cf-4f47-a578-a7804a81f683</uuid>
