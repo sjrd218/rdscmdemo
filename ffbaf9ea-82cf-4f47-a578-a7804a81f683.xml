@@ -9,7 +9,12 @@
     <nodeFilterEditable>false</nodeFilterEditable>
     <plugins />
     <scheduleEnabled>true</scheduleEnabled>
-    <schedules />
+    <schedule>
+      <month month='*' />
+      <time hour='*' minute='0/10' seconds='0' />
+      <weekday day='*' />
+      <year year='*' />
+    </schedule>
     <sequence keepgoing='false' strategy='node-first'>
       <command>
         <exec>echo "scm all the way"</exec>
